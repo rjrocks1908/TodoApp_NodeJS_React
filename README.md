@@ -22,19 +22,23 @@ The Backend contains the following APIs
     - `/test` -> GET Request, To test whether the route is working or not
     - `/createtodos` -> POST Request, To create a new todo
         JSON Request
+        ```json
         {
             "title": "Complete Homework 3",
             "description": "100Days of DSA"
         }
+        ```
     - `/gettodos` -> GET Request, To get all the todos
     - `/gettodo/:id` -> GET Request, To get a single todo by id
     - `/updatetodo/:id` -> PUT Request, To update a todo by id
         JSON Request
+        ```json
         {
             "title": "Complete Homework 3",
             "description": "100Days of DSA",
             "completed": true
         }
+        ```
     - `/deletetodo/:id` -> DELETE Request, To delete a todo by id
 
 
