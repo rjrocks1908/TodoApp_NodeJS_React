@@ -20,7 +20,7 @@ The Backend contains the following APIs
 1. `/` -> GET Request, Root URL which is there to test whether project is running fine or not
 2. `/todosroutes` ->
     - `/test` -> GET Request, To test whether the route is working or not
-    - `/createtodos` -> POST Request, To create a new todo
+    - `/createtodos` -> POST Request, To create a new todo__
         JSON Request
         ```json
         {
@@ -30,7 +30,7 @@ The Backend contains the following APIs
         ```
     - `/gettodos` -> GET Request, To get all the todos
     - `/gettodo/:id` -> GET Request, To get a single todo by id
-    - `/updatetodo/:id` -> PUT Request, To update a todo by id
+    - `/updatetodo/:id` -> PUT Request, To update a todo by id__
         JSON Request
         ```json
         {
